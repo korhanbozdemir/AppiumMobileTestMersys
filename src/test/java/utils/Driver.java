@@ -11,7 +11,7 @@ import java.net.URL;
 public class Driver {
 
     public static AndroidDriver<AndroidElement> androidDriver;
-    DesiredCapabilities capabilities = new DesiredCapabilities();
+    DesiredCapabilities capabilities = new DesiredCapabilities();//
 
 
     @BeforeTest

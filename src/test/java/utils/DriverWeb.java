@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class DriverWeb {
 
     public static AndroidDriver androidDriver;
-    DesiredCapabilities capabilities = new DesiredCapabilities();
+    DesiredCapabilities capabilities = new DesiredCapabilities();//
 
 
     @BeforeMethod

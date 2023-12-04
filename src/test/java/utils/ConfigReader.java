@@ -21,6 +21,7 @@ public class ConfigReader {
         } catch (IOException e) {
             System.out.println("File Couldn't be Load From Properties File");
         }
+        //
 
           }
 
